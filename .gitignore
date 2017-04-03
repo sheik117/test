@@ -4,6 +4,8 @@
 *.obj
 *.elf
 
+#test adolphin
+
 # Precompiled Headers
 *.gch
 *.pch
