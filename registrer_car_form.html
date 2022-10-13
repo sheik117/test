@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="scripts/script.js"></script>
+    <title>registrering</title>
+</head>
+
+<body>
+    <div id="grid-container">
+    <header>
+    <h1>Registrering av bil</h1>
+    </header> 
+
+    <div id="image">
+    <img src="kanye.jpg">
+    </div>
+
+    <nav>
+
+    </nav>
+    <main>
+
+        <h3>Registrer bilen din under</h3>
+        <a href="index.html"><button>Log ut</button></a>
+
+    </main>
+
+
+  <section>
+        <h1>Registrer bilen din</h1>
+        <p>* markerte felt er påkrevd</p>
+        <form id="myForm">
+        <div class="form-row">
+            <label for="firstname">First Name: *</label><br />
+            <input type="text" name="firstname" id="firstname" class="form-input-field" placeholder="First Name" required>
+        </div>
+        <div class="form-row">
+            <label for="lastname">Last Name: *</label><br />
+            <input type="text" name="lastname" id="lastname" class="form-input-field" placeholder="Last Name" required>
+        </div>
+        <div class="form-row">
+            <label for="email">Email: *</label><br />
+            <input type="email" name="email" id="email" class="form-input-field" placeholder="Email" required>
+        </div>
+        <div class="form-row">
+            <label for="phone">Phone: *</label><br />
+            <input type="phone" name="phone" id="phone" class="form-input-field" placeholder="Phone" required>
+        </div>
+        <div class="form-row">
+            <label form="subject">Subject: *</label><br />
+            <input type="text" name="subject" id="subject" class="form-input-field" placeholder="Subject" required>
+        </div>
+        <div class="form-row">
+            <label for="comments">Comments:</label><br />
+            <textarea name="comments" id="comments" class="form-input-field" rows="6"></textarea>
+        </div>
+        <div class="form-row">
+            <input type="submit" name="submit" value="Submit" class="form-submit-btn">
+        </div>
+        </form>
+  
+    <div class="results" id="results">
+        test
+      <!-- <p class="result-json-output"></p> -->
+    </div>
+    </section>
+
+<footer>
+        <h4>En side for leing og ut-leing av biler</h4>
+</footer>
+</body>
+</div>
+</html>
